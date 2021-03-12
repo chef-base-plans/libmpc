@@ -1,7 +1,7 @@
 pkg_name=libmpc
 _distname=mpc
 pkg_origin=core
-pkg_version=1.1.0
+pkg_version=1.2.1
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="\
 GNU MPC is a C library for the arithmetic of complex numbers with arbitrarily \
@@ -10,7 +10,7 @@ high precision and correct rounding of the result.\
 pkg_upstream_url="http://www.multiprecision.org/"
 pkg_license=('LGPL-3.0-or-later')
 pkg_source="https://ftp.gnu.org/gnu/${_distname}/${_distname}-${pkg_version}.tar.gz"
-pkg_shasum="6985c538143c1208dcb1ac42cedad6ff52e267b47e5f970183a3e75125b43c2e"
+pkg_shasum="17503d2c395dfcf106b622dc142683c1199431d095367c6aacba6eec30340459"
 pkg_dirname="${_distname}-${pkg_version}"
 pkg_deps=(
   core/glibc
